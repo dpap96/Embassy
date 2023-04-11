@@ -1,0 +1,136 @@
+/*SETTINGS FOR ALL PAGES*/
+body{ 
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    background-color:#ffffff;
+    color: #0a0a0a;
+    margin: 0;/*εξωτερικες αποστασεις του body απο την html σελιδα*/
+    padding: 0;/*εσωτερικες αποστασεις του body απο την html σελιδα*/
+    height: 100vh; /*view height -οσο το viewport*/
+    width: 100vw; /*view width -οσο το viewport*/
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px; 
+}
+.formdetails{
+  width: 400px;
+}
+.sectionpad{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.container-center{ /*κλαση που δημιουργει αποστασεις */
+  padding: 1% 10%;
+}
+.container-contact{ /*κλαση που δημιουργει αποστασεις */
+  padding: 1% 15%;
+}
+.rowpadtop{
+  padding-top: 20px; 
+ }
+ .rowpadbottom{
+   padding-bottom: 20px;
+ }
+ .btncolor{
+  background-color:#8f0606;
+  color: #fff;
+ }
+ .paragr{ /*for each paragraph line height*/
+  line-height: 2.5;
+  padding: 2% 5%;
+}
+
+
+/* VIDEO SECTION  INDEX.HTML*/
+.video{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#bg-video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  }
+
+  @media (max-width: 900px) {
+    #bg-video {
+      position: static;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+/* sectionNavBar */
+#sectionNavBar{
+  font-style: normal;
+  font-variant: small-caps;
+ }
+
+
+.navbarwhite{
+  color:#fff;
+  position:absolute; 
+  z-index: 999;
+}
+
+.carousel-photos{
+  height:900px;
+  width: 100vw;
+  
+}
+
+/*section ACCOMODATION  */
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius:2;
+  
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius:2;
+  
+}
+
+/* sectionExperience */
+.imge{
+  height: auto;
+  width: 100%;
+  
+}
+/*sectionAccomodation & ActivitiesSection(Activities.html)*/
+.imggrid{
+  height: 228px;
+  width: 366;
+}
+
+/* footersection */
+#footersection{
+  background-color:#f0eded;
+}
+.icons{
+  margin: 20px 10px; /* apostaseis 20 top bottom , 10 left right*/
+}
+
+
+
